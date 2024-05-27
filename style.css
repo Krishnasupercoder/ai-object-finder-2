@@ -1,0 +1,27 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.heading{
+    font-size: 23px;
+    width:100% ;
+    margin-top: 0%;
+}
+#start,#objects,#status{
+    font-size: 23px;
+}
+.footer{
+ position:fixed;
+ bottom:0;
+ background-color: peachpuff;
+ color:brown;
+ width:100%;
+ text-align: center;
+ line-height:2.5;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top:130px;
+    box-shadow: 5px 5px 5px white;
+}
